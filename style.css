@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans SC', sans-serif; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
+
+.value {
+  font-size: 2em;
+  text-transform: uppercase;
+  background: white;
+  color: #8e44ad;
+  padding: 10px; }
+
+.blurb {
+  margin-top: 3rem;
+  background: white;
+  color: #8e44ad;
+  padding: 10px; }
+  .blurb a {
+    color: #8e44ad; }
+
+.progress {
+  background: white;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1; }
+  .progress > span {
+    display: block;
+    height: 100%;
+    background-color: #8e44ad;
+    position: relative;
+    overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
